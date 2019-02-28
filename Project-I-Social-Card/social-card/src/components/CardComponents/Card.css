@@ -1,1 +1,39 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+img {
+    width: 87%;
+    margin-right: 10px;
+}
+
+.cardContentContainer {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 87%;
+    margin-right: 10px;
+}
+
+.cardContentContainer h2 {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.cardContentContainer h4 {
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.cardContentContainer p {
+    font-size: 14px;
+    margin: 0 5px 10px 5px;
+    /* padding: 5px; */
+}
