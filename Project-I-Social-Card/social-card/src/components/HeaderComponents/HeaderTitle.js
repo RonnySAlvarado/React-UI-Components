@@ -3,10 +3,10 @@ import './Header.css';
 
 function HeaderTitle () {
     return (
-        <React.Fragment>
+        <div className="headerTitleContainer">
             <h2>Lambda School</h2>
             <h4>@LambdaSchool</h4>
-        </React.Fragment>
+        </div>
     );
 };
 

@@ -1,6 +1,38 @@
 /* All styles for your header Components live here */
 
 .headerContainer {
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
+    display: flex;
 }
+
+.headerContainer img {
+    width: 10%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.headerContainer .headerTitleContentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTitleContainer {
+    display: flex;
+}
+
+.headerTitleContainer h2 {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.headerTitleContainer h4 {
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 5px 10px 5px;
+}
+
