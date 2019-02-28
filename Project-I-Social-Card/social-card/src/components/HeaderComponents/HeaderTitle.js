@@ -4,8 +4,8 @@ import './Header.css';
 function HeaderTitle () {
     return (
         <React.Fragment>
-            <h1>Lambda School</h1>
-            <h4>LambdaSchool</h4>
+            <h2>Lambda School</h2>
+            <h4>@LambdaSchool</h4>
         </React.Fragment>
     );
 };
