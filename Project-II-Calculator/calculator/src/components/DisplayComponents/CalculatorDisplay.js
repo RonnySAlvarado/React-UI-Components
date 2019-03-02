@@ -1,16 +1,18 @@
 import React from 'react';
 import './Display.css';
-import ActionAndNumberButton from "../ButtonComponents/ActionAndNumberButton";
+import NumberButton from "../ButtonComponents/NumberButton";
 
 class CalculatorDisplay extends React.Component {
-    constructor (props){
-        super(props);
-        this.state = {
+        state = {
             num: 0
         }
+
+    handleClick = () => {
+        console.log("Clicked!");  
     }
 
     render (){
+        <NumberButton handleClick={this.handleClick} />
         return (
             <React.Fragment>
                 <h1 className='calculatorDisplay'>{this.state.num}</h1>
@@ -20,12 +22,3 @@ class CalculatorDisplay extends React.Component {
 }
 
 export default CalculatorDisplay;
-
-
-// function CalculatorDisplay (props) {
-//     return (
-//         <React.Fragment>
-//             <h1 className='calculatorDisplay'>0</h1>
-//         </React.Fragment>
-//     );
-// };
