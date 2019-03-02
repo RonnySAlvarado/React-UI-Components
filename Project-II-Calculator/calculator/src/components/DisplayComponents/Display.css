@@ -1,0 +1,11 @@
+.calculatorDisplay {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    background: black;
+    height: 16.6%;
+    width: 100%;
+    margin: 0;
+    font-size: 72px;
+}
