@@ -2,14 +2,19 @@ import React from 'react';
 import './Button.css';
 
 class ActionButton extends React.Component {
-    constructor (){
-        super();
+    constructor (props){
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick (){
+        console.log("Also clicked!");
     }
 
     render (){
         return (
-            <button className={this.props.buttonStyle}>{this.props.text}</button>
-            );
+            <button onClick={this.handleClick} className={this.props.buttonStyle}>{this.props.text}</button>
+        );
     }
 }
 
