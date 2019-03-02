@@ -11,11 +11,11 @@ function ActionAndNumberButton () {
             <NumberButton buttonStyle='btn' text='7' />
             <NumberButton buttonStyle='btn' text='8' />
             <NumberButton buttonStyle='btn' text='9' />
-            <NumberButton buttonStyle='btn red' text='x' />
+            <NumberButton buttonStyle='btn red' text='×' />
             <NumberButton buttonStyle='btn' text='4' />
             <NumberButton buttonStyle='btn' text='5' />
             <NumberButton buttonStyle='btn' text='6' />
-            <NumberButton buttonStyle='btn red' text='-' />
+            <NumberButton buttonStyle='btn red' text='−' />
             <NumberButton buttonStyle='btn' text='1' />
             <NumberButton buttonStyle='btn' text='2' />
             <NumberButton buttonStyle='btn' text='3' />
