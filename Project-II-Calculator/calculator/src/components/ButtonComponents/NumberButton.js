@@ -3,7 +3,7 @@ import './Button.css';
 
 function NumberButton (props) {
     return (
-        <button value={props.text} onClick={props.numInput} className={props.buttonStyle}>{props.text}</button>
+        <button value={Number(props.text)} onClick={props.numInput} className={props.buttonStyle}>{props.text}</button>
     );
 }
 
