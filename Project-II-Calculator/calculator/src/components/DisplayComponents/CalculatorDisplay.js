@@ -1,6 +1,5 @@
 import React from 'react';
 import './Display.css';
-import NumberButton from "../ButtonComponents/NumberButton";
 
 function CalculatorDisplay (props) {
     return (

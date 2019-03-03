@@ -8,15 +8,40 @@ class App extends React.Component {
     num: 0
   }
 
-  handleClick = () => {
-  console.log("Clicked!");  
+  numInput = (event) => {
+    if (this.state.num === 0) {this.setState({num: event.target.value})}
+    else {this.setState( {num: `${this.state.num}${event.target.value}`} );}
+  }
+
+  add = (event) => {
+
+  }
+
+  subtract = (event) => {
+
+  }
+
+  multiply = (event) => {
+
+  }
+
+  divide = (event) => {
+
+  }
+
+  calculate = (event) => {
+
+  }
+
+  clear = (event) => {
+
   }
 
   render (){
     return (
       <div className="container">
         <CalculatorDisplay num={this.state.num}/>
-        <ActionAndNumberButton handleClick={this.handleClick}/>
+        <ActionAndNumberButton numInput={this.numInput}/>
       </div>
     );
   }
