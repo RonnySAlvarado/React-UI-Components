@@ -7,7 +7,7 @@ import NumberButton from "./NumberButton";
 function ActionAndNumberButton (props) {
     return (
         <div className="ActionAndNumberContainer">
-            <ActionButton numInput={props.numInput} buttonStyle='btn wide' text='clear' />
+            <ActionButton clear={props.clear} buttonStyle='btn wide' text='clear' />
             <NumberButton numInput={props.numInput} buttonStyle='btn red' text='÷' />
             <NumberButton numInput={props.numInput} buttonStyle='btn' text='7' />
             <NumberButton numInput={props.numInput} buttonStyle='btn' text='8' />

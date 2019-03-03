@@ -33,15 +33,18 @@ class App extends React.Component {
 
   }
 
-  clear = (event) => {
-
+  clear = () => {
+    this.setState ( { num: 0})
   }
 
   render (){
     return (
       <div className="container">
         <CalculatorDisplay num={this.state.num}/>
-        <ActionAndNumberButton numInput={this.numInput}/>
+        <ActionAndNumberButton 
+                              numInput={this.numInput}
+                              clear={this.clear} 
+        />
       </div>
     );
   }
