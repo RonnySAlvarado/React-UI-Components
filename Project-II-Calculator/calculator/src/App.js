@@ -38,11 +38,11 @@ class App extends React.Component {
     if (this.state.add === true) {this.setState ({num: Number(this.state.num2) + Number(this.state.num), num2: 0, add: false})}
     else if (this.state.subtract === true) {this.setState ({num: this.state.num2 - this.state.num, num2: 0, subtract: false})}
     else if (this.state.multiply === true) {this.setState ({num: this.state.num2 * this.state.num, num2: 0, multiply: false})}
-    else if (this.state.divide === true) {this.setState ({num: this.state.num2 / this.state.num, num2: 0, divide: false})}
+    else if (this.state.divide === true) {this.setState ({num: (this.state.num2 / this.state.num).toFixed(7), num2: 0, divide: false})}
   }
 
   clear = () => {
-    this.setState ( { num: 0})
+    this.setState ( { num: 0, num1: 0, num2: 0})
   }
 
   render (){
