@@ -1,0 +1,19 @@
+.btn {
+    text-align: center;
+    vertical-align: center;
+    width: 25%;
+    height: 99.6px;
+    font-size: 56px;
+    border: 1px solid #979797;
+    background: white;
+    cursor: pointer;
+}
+
+.red {
+    background: #A0001E;
+    color: white;
+}
+
+.wide {
+    width: 75%;
+}
